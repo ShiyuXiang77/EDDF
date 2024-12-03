@@ -12,54 +12,10 @@ import pandas as pd
 # 初始化 LLM 和嵌入模型
 llm = initialize_spark_llm()
 embeddings = TfidfEmbeddings()
-
-with open('arxiv_attack_paper_url.txt', 'r', encoding='utf-8') as file:
-    urls = file.readlines()  # 读取所有行
-    for url in urls:
-        url = url.strip()
-        try:
-            content = fetch_content_from_url(url)
-            messages = chat_prompt1.format_messages(content=content)
-            result = llm.invoke(messages)
-            output_parser = StrOutputParser()
-            parsed_result = output_parser.invoke(result)
-            data = {
-                "url": url,
-                "attack_knowledge": parsed_result if parsed_result else ""
-            }
-            print(data)
-            append_to_json('./attack_knowledge.json', data)
-        except TimeoutError as e:
-            print(f"Timeout error for URL {url}: {e}")
-            # 继续处理下一个 URL
-            continue
-        except Exception as e:
-            print(f"An error occurred for URL {url}: {e}")
-            # 继续处理下一个 URL
-            continue
-
-
-
-# 分块文本
-file_path = 'attack_knowledge.json'
-attack_knowledge_list = load_attack_knowledge(file_path)
-
-# 提取 "attack_knowledge" 字段并合并为单一字符串
-combined_text = "\n\n".join(item['attack_knowledge'] for item in attack_knowledge_list)
-
-# 使用 RecursiveCharacterTextSplitter 分块
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0) #需要修改分块方式
-split_docs = text_splitter.split_text(combined_text)
-# 构建向量数据库
-# 初始化自定义嵌入器
-embeddings = TfidfEmbeddings()
-
-# 将分块后的数据转换为 LangChain 文档格式
-documents = [Document(page_content=chunk) for chunk in split_docs]
-
-# 使用分块后的文档构建向量数据库
+# 加载向量数据库
 persist_directory = "chroma_db_split"
-vectorstore = Chroma.from_documents(documents, embeddings, persist_directory=persist_directory)
+embeddings = TfidfEmbeddings()
+vectorstore = Chroma(persist_directory, embeddings)
 
 # test
 # query = "What is the backdoor attack method described in the paper?"
