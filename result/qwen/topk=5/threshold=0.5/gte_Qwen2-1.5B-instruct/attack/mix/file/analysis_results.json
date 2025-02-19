@@ -1,0 +1,86 @@
+[
+  {
+    "filename": "final_Cipher_renellm_mix_shuffled.json",
+    "statistics": {
+      "total_count": 100,
+      "harmful_counts": {
+        "true": 73,
+        "false": 27
+      },
+      "second_judge_true": {
+        "harmful_true": 15,
+        "harmful_false": 15,
+        "ASR": 0.5
+      },
+      "second_judge_false": {
+        "harmful_true": 58,
+        "harmful_false": 12,
+        "ASR": 0.17142857142857143
+      },
+      "total_harmful_ratio": 0.27
+    }
+  },
+  {
+    "filename": "jailbroken_renellm_mix_prompt_data_our_work.json",
+    "statistics": {
+      "total_count": 249,
+      "harmful_counts": {
+        "true": 203,
+        "false": 46
+      },
+      "second_judge_true": {
+        "harmful_true": 51,
+        "harmful_false": 32,
+        "ASR": 0.3855421686746988
+      },
+      "second_judge_false": {
+        "harmful_true": 152,
+        "harmful_false": 14,
+        "ASR": 0.08433734939759036
+      },
+      "total_harmful_ratio": 0.18473895582329317
+    }
+  },
+  {
+    "filename": "multiLang_renellm_mix_prompt_data_merged_our_work1.json",
+    "statistics": {
+      "total_count": 135,
+      "harmful_counts": {
+        "true": 112,
+        "false": 23
+      },
+      "second_judge_true": {
+        "harmful_true": 18,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 94,
+        "harmful_false": 23,
+        "ASR": 0.19658119658119658
+      },
+      "total_harmful_ratio": 0.17037037037037037
+    }
+  },
+  {
+    "filename": "new_flip_renellm_adv100-200_our_work.json",
+    "statistics": {
+      "total_count": 100,
+      "harmful_counts": {
+        "true": 90,
+        "false": 10
+      },
+      "second_judge_true": {
+        "harmful_true": 3,
+        "harmful_false": 3,
+        "ASR": 0.5
+      },
+      "second_judge_false": {
+        "harmful_true": 87,
+        "harmful_false": 7,
+        "ASR": 0.07446808510638298
+      },
+      "total_harmful_ratio": 0.1
+    }
+  }
+]

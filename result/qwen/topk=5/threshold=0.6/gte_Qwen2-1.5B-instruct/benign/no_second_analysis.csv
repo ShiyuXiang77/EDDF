@@ -1,0 +1,8 @@
+文件名,小于0.6的个数,ASR
+Cipher_benign_100_prompt_our_work_test.json,271,0.9064
+ReNeLLM_benign_100_prompt_data_our_work.json,25,0.25
+analysis_results.json,0,0.0
+exaggerated-safety_xstest_v2_prompts.json,31,0.1742
+flip_benign.json,52,0.52
+jailbroken_benign_100_prompt_data_our_work.json,169,0.3528
+multiLang_benign_prompt_our_work.json,53,0.106

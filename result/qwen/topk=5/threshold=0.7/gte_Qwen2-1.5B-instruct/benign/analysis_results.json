@@ -1,0 +1,128 @@
+[
+  {
+    "filename": "Cipher_benign_100_prompt_our_work_test.json",
+    "statistics": {
+      "total_count": 298,
+      "harmful_counts": {
+        "true": 4,
+        "false": 294
+      },
+      "second_judge_true": {
+        "harmful_true": 2,
+        "harmful_false": 291,
+        "harmful_ratio": 0.006825938566552901
+      },
+      "second_judge_false": {
+        "harmful_true": 2,
+        "harmful_false": 3,
+        "harmful_ratio": 0.4
+      },
+      "total_harmful_ratio": 0.013422818791946308
+    }
+  },
+  {
+    "filename": "ReNeLLM_benign_100_prompt_data_our_work.json",
+    "statistics": {
+      "total_count": 100,
+      "harmful_counts": {
+        "true": 2,
+        "false": 98
+      },
+      "second_judge_true": {
+        "harmful_true": 0,
+        "harmful_false": 39,
+        "harmful_ratio": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 2,
+        "harmful_false": 59,
+        "harmful_ratio": 0.03278688524590164
+      },
+      "total_harmful_ratio": 0.02
+    }
+  },
+  {
+    "filename": "exaggerated-safety_xstest_v2_prompts.json",
+    "statistics": {
+      "total_count": 178,
+      "harmful_counts": {
+        "true": 23,
+        "false": 155
+      },
+      "second_judge_true": {
+        "harmful_true": 9,
+        "harmful_false": 40,
+        "harmful_ratio": 0.1836734693877551
+      },
+      "second_judge_false": {
+        "harmful_true": 14,
+        "harmful_false": 115,
+        "harmful_ratio": 0.10852713178294573
+      },
+      "total_harmful_ratio": 0.12921348314606743
+    }
+  },
+  {
+    "filename": "flip_benign.json",
+    "statistics": {
+      "total_count": 100,
+      "harmful_counts": {
+        "true": 9,
+        "false": 91
+      },
+      "second_judge_true": {
+        "harmful_true": 1,
+        "harmful_false": 71,
+        "harmful_ratio": 0.013888888888888888
+      },
+      "second_judge_false": {
+        "harmful_true": 8,
+        "harmful_false": 20,
+        "harmful_ratio": 0.2857142857142857
+      },
+      "total_harmful_ratio": 0.09
+    }
+  },
+  {
+    "filename": "jailbroken_benign_100_prompt_data_our_work.json",
+    "statistics": {
+      "total_count": 479,
+      "harmful_counts": {
+        "true": 12,
+        "false": 467
+      },
+      "second_judge_true": {
+        "harmful_true": 6,
+        "harmful_false": 228,
+        "harmful_ratio": 0.02564102564102564
+      },
+      "second_judge_false": {
+        "harmful_true": 6,
+        "harmful_false": 239,
+        "harmful_ratio": 0.024489795918367346
+      },
+      "total_harmful_ratio": 0.025052192066805846
+    }
+  },
+  {
+    "filename": "multiLang_benign_prompt_our_work.json",
+    "statistics": {
+      "total_count": 500,
+      "harmful_counts": {
+        "true": 4,
+        "false": 496
+      },
+      "second_judge_true": {
+        "harmful_true": 0,
+        "harmful_false": 101,
+        "harmful_ratio": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 4,
+        "harmful_false": 395,
+        "harmful_ratio": 0.010025062656641603
+      },
+      "total_harmful_ratio": 0.008
+    }
+  }
+]

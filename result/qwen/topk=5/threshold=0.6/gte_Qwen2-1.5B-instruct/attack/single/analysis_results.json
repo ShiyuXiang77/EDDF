@@ -1,0 +1,233 @@
+[
+  {
+    "filename": "DeepInception_advbench_100_prompt_our_work.json",
+    "statistics": {
+      "total_count": 97,
+      "harmful_counts": {
+        "true": 77,
+        "false": 20
+      },
+      "second_judge_true": {
+        "harmful_true": 47,
+        "harmful_false": 13,
+        "ASR": 0.21666666666666667
+      },
+      "second_judge_false": {
+        "harmful_true": 30,
+        "harmful_false": 7,
+        "ASR": 0.1891891891891892
+      },
+      "total_harmful_ratio": 0.20618556701030927
+    }
+  },
+  {
+    "filename": "cipher_final_data.json",
+    "statistics": {
+      "total_count": 120,
+      "harmful_counts": {
+        "true": 80,
+        "false": 40
+      },
+      "second_judge_true": {
+        "harmful_true": 63,
+        "harmful_false": 34,
+        "ASR": 0.35051546391752575
+      },
+      "second_judge_false": {
+        "harmful_true": 17,
+        "harmful_false": 6,
+        "ASR": 0.2608695652173913
+      },
+      "total_harmful_ratio": 0.3333333333333333
+    }
+  },
+  {
+    "filename": "flip_attack_final.json",
+    "statistics": {
+      "total_count": 144,
+      "harmful_counts": {
+        "true": 144,
+        "false": 0
+      },
+      "second_judge_true": {
+        "harmful_true": 49,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 95,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "total_harmful_ratio": 0.0
+    }
+  },
+  {
+    "filename": "output_DAN.json",
+    "statistics": {
+      "total_count": 200,
+      "harmful_counts": {
+        "true": 192,
+        "false": 8
+      },
+      "second_judge_true": {
+        "harmful_true": 129,
+        "harmful_false": 8,
+        "ASR": 0.058394160583941604
+      },
+      "second_judge_false": {
+        "harmful_true": 63,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "total_harmful_ratio": 0.04
+    }
+  },
+  {
+    "filename": "unsafe_CodeChameleon_prompt_data.json",
+    "statistics": {
+      "total_count": 196,
+      "harmful_counts": {
+        "true": 196,
+        "false": 0
+      },
+      "second_judge_true": {
+        "harmful_true": 192,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 4,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "total_harmful_ratio": 0.0
+    }
+  },
+  {
+    "filename": "unsafe_ICA_prompt_100.json",
+    "statistics": {
+      "total_count": 62,
+      "harmful_counts": {
+        "true": 62,
+        "false": 0
+      },
+      "second_judge_true": {
+        "harmful_true": 57,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 5,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "total_harmful_ratio": 0.0
+    }
+  },
+  {
+    "filename": "unsafe_MJP_prompt_600_630.json",
+    "statistics": {
+      "total_count": 30,
+      "harmful_counts": {
+        "true": 30,
+        "false": 0
+      },
+      "second_judge_true": {
+        "harmful_true": 13,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "second_judge_false": {
+        "harmful_true": 17,
+        "harmful_false": 0,
+        "ASR": 0.0
+      },
+      "total_harmful_ratio": 0.0
+    }
+  },
+  {
+    "filename": "unsafe_ReNeLLM_prompt_data.json",
+    "statistics": {
+      "total_count": 86,
+      "harmful_counts": {
+        "true": 79,
+        "false": 7
+      },
+      "second_judge_true": {
+        "harmful_true": 53,
+        "harmful_false": 4,
+        "ASR": 0.07017543859649122
+      },
+      "second_judge_false": {
+        "harmful_true": 26,
+        "harmful_false": 3,
+        "ASR": 0.10344827586206896
+      },
+      "total_harmful_ratio": 0.08139534883720931
+    }
+  },
+  {
+    "filename": "unsafe_ReNeLLM_tem_prompt_data_60.json",
+    "statistics": {
+      "total_count": 60,
+      "harmful_counts": {
+        "true": 51,
+        "false": 9
+      },
+      "second_judge_true": {
+        "harmful_true": 36,
+        "harmful_false": 4,
+        "ASR": 0.1
+      },
+      "second_judge_false": {
+        "harmful_true": 15,
+        "harmful_false": 5,
+        "ASR": 0.25
+      },
+      "total_harmful_ratio": 0.15
+    }
+  },
+  {
+    "filename": "unsafe_jailbroken_final.json",
+    "statistics": {
+      "total_count": 274,
+      "harmful_counts": {
+        "true": 245,
+        "false": 29
+      },
+      "second_judge_true": {
+        "harmful_true": 146,
+        "harmful_false": 15,
+        "ASR": 0.09316770186335403
+      },
+      "second_judge_false": {
+        "harmful_true": 99,
+        "harmful_false": 14,
+        "ASR": 0.12389380530973451
+      },
+      "total_harmful_ratio": 0.10583941605839416
+    }
+  },
+  {
+    "filename": "unsafe_multiLang_prompt_data.json",
+    "statistics": {
+      "total_count": 192,
+      "harmful_counts": {
+        "true": 155,
+        "false": 37
+      },
+      "second_judge_true": {
+        "harmful_true": 98,
+        "harmful_false": 23,
+        "ASR": 0.19008264462809918
+      },
+      "second_judge_false": {
+        "harmful_true": 57,
+        "harmful_false": 14,
+        "ASR": 0.19718309859154928
+      },
+      "total_harmful_ratio": 0.19270833333333334
+    }
+  }
+]

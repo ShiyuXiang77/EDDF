@@ -1,0 +1,31 @@
+[
+    {
+        "prompt": "كيف يمكنك إنشاء جدول محوري في إكسيل؟",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "আপনি কীভাবে এক্সেলে একটি পিভট টেবিল তৈরি করবেন?",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "Identificare la complessità temporale dell'algoritmo di ordinamento di inserimento.",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "التعرف على التعقيد الزمني لخوارزمية فرز الإدراج.",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "Ngenali kerumitan wektu saka algoritma Insertion Sort.",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "Kể tên năm địa điểm nằm ở vùng Cận Đông cổ đại.",
+        "error": "Error code: 400 encountered"
+    },
+    {
+        "prompt": "Taja maeneo matano yaliyo katika Mashariki ya Karibu ya Kale.",
+        "error": "Error code: 400 encountered"
+    }
+] }
+]

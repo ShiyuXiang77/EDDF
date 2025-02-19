@@ -1,0 +1,6 @@
+filename,total_count,harmful_true,harmful_false,second judge_true_harmful_true,second judge_true_harmful_false,second judge_false_harmful_true,second judge_false_harmful_false,total_harmful_ASR,second judge_true_ASR,second judge_false_ASR
+analysis_results.json,0,0,0,0,0,0,0,0.0,0.0,0.0
+jailbroken_renellm_mix_prompt_data_our_work.json,249,203,46,51,32,152,14,0.18473895582329317,0.3855421686746988,0.08433734939759036
+multiLang_renellm_mix_prompt_data_merged_our_work1.json,135,112,23,18,0,94,23,0.17037037037037037,0.0,0.19658119658119658
+new_flip_renellm_adv100-200_our_work.json,100,90,10,3,3,87,7,0.1,0.5,0.07446808510638298
+TOTAL,484,-,79,-,35,-,44,0.1632,0.3271,0.1167
