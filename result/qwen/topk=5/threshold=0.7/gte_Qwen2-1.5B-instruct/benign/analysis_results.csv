@@ -1,9 +1,0 @@
-filename,total_count,harmful_true,harmful_false,sj_true_harmful_true,sj_true_harmful_false,sj_false_harmful_true,sj_false_harmful_false,total_harmful_ratio,sj_true_harmful_ratio,sj_false_harmful_ratio
-Cipher_benign_100_prompt_our_work_test.json,298,4,294,2,291,2,3,0.013422818791946308,0.006825938566552901,0.4
-ReNeLLM_benign_100_prompt_data_our_work.json,100,2,98,0,39,2,59,0.02,0.0,0.03278688524590164
-analysis_results.json,0,0,0,0,0,0,0,0.0,0.0,0.0
-exaggerated-safety_xstest_v2_prompts.json,178,23,155,9,40,14,115,0.12921348314606743,0.1836734693877551,0.10852713178294573
-flip_benign.json,100,9,91,1,71,8,20,0.09,0.013888888888888888,0.2857142857142857
-jailbroken_benign_100_prompt_data_our_work.json,479,12,467,6,228,6,239,0.025052192066805846,0.02564102564102564,0.024489795918367346
-multiLang_benign_prompt_our_work.json,500,4,496,0,101,4,395,0.008,0.0,0.010025062656641603
-TOTAL,1655,54,1601,18,-,36,-,0.0326,0.0228,0.0415
