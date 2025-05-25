@@ -31,7 +31,7 @@ python online_main.py
 ## Contact
 
 - Shiyu Xiang: xiangshiyu@stu.scu.edu.cn
-- Ronghao Chen: chenronghao@stu.pku.edu.cn
+- Ronghao Chen: chenronghao@alumni.pku.edu.cn
 
 ## BibTeX:
 
