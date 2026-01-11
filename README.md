@@ -12,8 +12,12 @@ Although Aligned Large Language Models (LLMs) are trained to reject harmful requ
 
 ## Quick Start
 
-1. Configure relevant parameters in config.py
-2. Offline Essence Database Construction
+1. Configure the relevant parameters in config.py and install the environment:
+```
+pip install -r requirements.txt
+```
+
+2. Offline Essence Database Construction: First, in the main function, fill in the folder_path and error_path for the data you want to use (for example, the data in the essence folder). Then execute the extraction of attack essences, perform the judgment, and finally store the results in the vector database.
 
 ```
 cd EDDF
@@ -22,7 +26,7 @@ python offine_essense_judge.py
 python vectorstore.py
 ```
 
-2. Online Adversarial Query Detection
+3. Online Adversarial Query Detection: In the main function of online_main.py, specify the folder_path and error_path for the data to be detected, and then run online_main.py.
 
 ```
 python online_main.py
