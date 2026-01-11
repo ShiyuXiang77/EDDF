@@ -37,4 +37,4 @@ def filter_json(result):
             match = re.sub(r'^```|```$', '', match.strip(), flags=re.MULTILINE)
             match = re.sub(r',\s*([}\]])', r'\1', match)
             parsed_result = json.loads(match)
-        return parsed_result
+    return parsed_result

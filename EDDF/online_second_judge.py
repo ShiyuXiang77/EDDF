@@ -35,8 +35,6 @@ def process_item(item: Dict, error_path: str) -> Dict:
     result = None
     try:
         prompt_final_test = list(item.values())[0]
-        if item["is harmful"] == True:
-            return item
         pattern = item["pattern"]
         prompt_final_test = item.get("adversarial", "")
         similar_scores = item["scores"]
